@@ -9,7 +9,7 @@ const updateProject = project => {
   let changed = false;
 
   if (project === 'keepalive') {
-    pkg.peerDependencies['@chaowlert/ng-idle-core'] = '^' + lerna.version;
+    pkg.peerDependencies['ng-idle-core'] = '^' + lerna.version;
     changed = true;
   }
 
