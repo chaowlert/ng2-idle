@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [8.0.0-beta.6](https://github.com/HackedByChinese/ng2-idle/compare/v8.0.0-beta.4...v8.0.0-beta.6) (2020-03-29)
+
+
+### Bug Fixes
+
+* **idle,timeout:** countdown idle and timeout based on time ([db87c4c](https://github.com/HackedByChinese/ng2-idle/commit/db87c4c))
+
+
+
+
+
 # [8.0.0-beta.5](https://github.com/HackedByChinese/ng2-idle/compare/v8.0.0-beta.4...v8.0.0-beta.5) (2020-03-29)
 
 
@@ -249,8 +260,8 @@ The new default expiry is now LocalStorageExpiry, and StorageInterruptSource has
 
 ### BREAKING CHANGES
 
-- keepalive: Modules have been changed from Ng2IdleModule and Ng2IdleKeepaliveModule to NgIdleModule and NgIdleKeepaliveModule, respectively. Additionally, keepalive imports should now be @ng-idle/keepalive.
-- core: This repository has been refactored to follow the @angular model of modularization so that it can be maintained more easily. You will need to change your import statements from 'ng2-idle' to '@ng-idle/core'.
+- keepalive: Modules have been changed from Ng2IdleModule and Ng2IdleKeepaliveModule to NgIdleModule and NgIdleKeepaliveModule, respectively. Additionally, keepalive imports should now be ng-idle-keepalive.
+- core: This repository has been refactored to follow the @angular model of modularization so that it can be maintained more easily. You will need to change your import statements from 'ng2-idle' to 'ng-idle-core'.
 
 <a name="1.0.0-alpha.18"></a>
 
